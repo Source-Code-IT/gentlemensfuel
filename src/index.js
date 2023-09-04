@@ -70,7 +70,7 @@ const App = () => {
 
       {activeSection === 'contact' && (
         <div id="contact">
-          <h1>contact page</h1>
+          <h1>contact page </h1>
         </div>
       )}
 
