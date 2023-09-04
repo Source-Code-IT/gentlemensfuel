@@ -35,8 +35,8 @@ const App = () => {
         GENTLEMENS FUEL
         <button className='button1' onClick={showHome}>Home</button>
         <button className='button2' onClick={showAbout}>About</button>
-        <button className='button3' onClick={showOffer}>What we offer</button>
-        <button className='button4' onClick={showContact}>Contact us</button>
+        <button className='button2' onClick={showOffer}>What we offer</button>
+        <button className='button2' onClick={showContact}>Contact us</button>
       </div>
 
       </header>

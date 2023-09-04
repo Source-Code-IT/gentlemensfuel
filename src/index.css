@@ -64,48 +64,6 @@ header {
   color: var(--h-sauce-color);
 }
 
-.button3 {
-  margin-left: 15px;
-  border: none;
-  color: black;
-  text-align: center;
-  text-decoration: underline;
-  font-family: monospace;
-  display: inline-block;
-  font-size: 30px;
-  cursor: pointer;
-  background-color: var(--h-sauce-color);
-  font-weight: bold;
-  font-family: monospace;
-}
-
-.button3:hover {
-  text-decoration: none;
-  background-color: #000000;
-  color: var(--h-sauce-color);
-}
-
-.button4 {
-  margin-left: 15px;
-  border: none;
-  color: black;
-  text-align: center;
-  text-decoration: underline;
-  font-family: monospace;
-  display: inline-block;
-  font-size: 30px;
-  cursor: pointer;
-  background-color: var(--h-sauce-color);
-  font-weight: bold;
-  font-family: monospace;
-}
-
-.button4:hover {
-  text-decoration: none;
-  background-color: #000000;
-  color: var(--h-sauce-color);
-}
-
 .smaller-image {
   width: 1000px;
   height: auto;
