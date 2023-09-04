@@ -1,63 +1,49 @@
 /* index.css */
 
-.body{
+:root {
+  --h-sauce-color: #ff7d00;
+}
+
+body {
   margin: 0;
   padding: 0;
 }
 
-.header{
-position: sticky;
-top:0;
+header {
+  position: sticky;
+  top: 0;
 }
+
 .title-css {
-  background-color: rgb(255, 125, 0);
+  background-color: var(--h-sauce-color);
   font-size: 30px;
   font-family: monospace;
   padding-left: 20px;
   font-weight: bold;
 }
 
-.button1{
+.button1 {
   margin-left: 600px;
   border: none;
-  color:black;
+  color: black;
   text-align: center;
   text-decoration: underline;
   font-family: monospace;
   display: inline-block;
   font-size: 30px;
   cursor: pointer;
-  background-color: rgb(255, 125, 0);
+  background-color: var(--h-sauce-color);
   font-weight: bold;
   font-family: monospace;
 }
-.button1:hover{
-  text-decoration: none; 
-  background-color: #000000; 
-  color:rgb(255, 125, 0);
+
+.button1:hover {
+  text-decoration: none;
+  background-color: #000000;
+  color: var(--h-sauce-color);
 }
 
-.button2{
-  margin-left: 15px;
-  border: none;
-  color:black;
-  text-align: center;
-  text-decoration: underline;
-  font-family: monospace;
-  display: inline-block;
-  font-size: 30px;
-  cursor: pointer;
-  background-color: rgb(255, 125, 0);
-  font-weight: bold;
-  font-family: monospace;
-}
-.button2:hover{
-  text-decoration: none; 
-  background-color: #000000; 
-  color:rgb(255, 125, 0);
-}
-
-.button3{
+.button2 {
   margin-left: 15px;
   border: none;
   color: black;
@@ -67,75 +53,98 @@ top:0;
   display: inline-block;
   font-size: 30px;
   cursor: pointer;
-  background-color:rgb(255, 125, 0);
+  background-color: var(--h-sauce-color);
   font-weight: bold;
   font-family: monospace;
 }
-.button3:hover{
-  text-decoration: none; 
-  background-color: #000000; 
-  color:rgb(255, 125, 0);
+
+.button2:hover {
+  text-decoration: none;
+  background-color: #000000;
+  color: var(--h-sauce-color);
 }
 
-.button4{
+.button3 {
   margin-left: 15px;
   border: none;
   color: black;
   text-align: center;
-  text-decoration:underline;
+  text-decoration: underline;
   font-family: monospace;
   display: inline-block;
   font-size: 30px;
   cursor: pointer;
-  background-color: rgb(255, 125, 0);
+  background-color: var(--h-sauce-color);
   font-weight: bold;
   font-family: monospace;
 }
-.button4:hover{
-  text-decoration: none; 
-  background-color: #000000; 
-  color:rgb(255, 125, 0);
+
+.button3:hover {
+  text-decoration: none;
+  background-color: #000000;
+  color: var(--h-sauce-color);
 }
 
-.smaller-image{
-    width: 1000px;
-    height: auto;
-    padding-top: 50px;
-    
-  }
+.button4 {
+  margin-left: 15px;
+  border: none;
+  color: black;
+  text-align: center;
+  text-decoration: underline;
+  font-family: monospace;
+  display: inline-block;
+  font-size: 30px;
+  cursor: pointer;
+  background-color: var(--h-sauce-color);
+  font-weight: bold;
+  font-family: monospace;
+}
 
-  .content-container {
-    display: flex; 
-    align-items: center;
-  }
-  
-  
-  .welcome{
-    font-size: 30px;
-    padding-left: 40px;
-    font-family: monospace;
-    font-weight: bold;
-    display: block;
-    margin-bottom: 5px;  
-  }
-  
+.button4:hover {
+  text-decoration: none;
+  background-color: #000000;
+  color: var(--h-sauce-color);
+}
 
-  .img{
-    padding-top: 200px;
-    padding-left: 200px;
-  }
+.smaller-image {
+  width: 1000px;
+  height: auto;
+  padding-top: 50px;
 
+}
 
-  .flavourimg{
-    width: 475px;
-    height: auto;
-    padding-top: 0px; 
-  }
+.content-container {
+  display: flex;
+  align-items: center;
+}
 
 
-  .text{
-    font-size: 30px;
-    padding-left: 13px;
-    font-family: monospace;
-    font-weight: bold;
-  }
+.welcome {
+  font-size: 30px;
+  padding-left: 40px;
+  font-family: monospace;
+  font-weight: bold;
+  display: block;
+  margin-bottom: 5px;
+}
+
+
+.img {
+  padding-top: 200px;
+  padding-left: 200px;
+}
+
+
+.flavourimg {
+  width: 475px;
+  height: auto;
+  padding-top: 0px;
+}
+
+
+.text {
+  font-size: 30px;
+  padding-left: 13px;
+  font-family: monospace;
+  font-weight: bold;
+}
