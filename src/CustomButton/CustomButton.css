@@ -1,0 +1,45 @@
+.button-wrap{
+    background-color: var(--h-sauce-color);
+    border-radius: 25px;
+    width: 300px;
+    height: 300px;
+    text-align: center;
+    text-decoration: none;
+    font-family: monospace;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.whatsapp-button{
+transition: all 1s ease;
+}
+.whatsapp-button:hover{
+    box-shadow:
+     0 0 5px rgb(0, 0, 0),
+     0 0 10px rgb(0, 0, 0),
+     0 0 20px rgb(0, 0, 0),
+     0 0 50px rgb(0, 0, 0);
+}
+
+.sm-link{
+    color: #fff;
+    text-decoration: none;
+}
+
+.sm-img{
+    width: 150px;
+    height: 150px;
+    border-radius: 25px;
+}
+
+
+.email-button{
+    transition: all 1s ease;
+}
+.email-button:hover{
+    box-shadow:
+     0 0 5px rgb(0, 0, 0),
+     0 0 10px rgb(0, 0, 0),
+     0 0 20px rgb(0, 0, 0),
+     0 0 50px rgb(0, 0, 0);
+}

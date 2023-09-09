@@ -106,3 +106,154 @@ header {
   font-family: monospace;
   font-weight: bold;
 }
+
+.button3 {
+  margin-left: 0px;
+  margin-top: 10px;
+  width: 300px;
+  height: 300px;
+  border: none;
+  color: black;
+  text-align: center;
+  text-decoration: underline;
+  font-family: monospace;
+  display: inline-block;
+  font-size: 30px;
+  cursor: pointer;
+  background-color: var(--h-sauce-color);
+  font-weight: bold;
+  font-family: monospace;
+}
+.button3:hover {
+  text-decoration: none;
+  background-color: #000000;
+  color: var(--h-sauce-color);
+}
+
+.button4 {
+  margin-left: 10px;
+  margin-top: 10px;
+  width: 300px;
+  height: 300px;
+  border: none;
+  color: black;
+  text-align: center;
+  text-decoration: underline;
+  font-family: monospace;
+  display: inline-block;
+  font-size: 30px;
+  cursor: pointer;
+  background-color: var(--h-sauce-color);
+  font-weight: bold;
+  font-family: monospace;
+}
+.button4:hover {
+  text-decoration: none;
+  background-color: #000000;
+  color: var(--h-sauce-color);
+}
+
+.contactlinktext {
+  font-size: 30px;
+  margin-left: 315px;
+  margin-top: 150px;
+  font-family: monospace;
+  font-weight: bold;
+}
+
+
+
+
+#contact {
+  display: flex;
+  flex-direction: column; /* Stack elements vertically */
+  align-items: normal; /* Center horizontally */
+}
+
+.contact-content {
+  display: flex;
+  flex-direction: row; /* Arrange elements horizontally */
+  align-items: center; /* Center vertically */
+}
+
+.contact-buttons {
+  flex: 1; /* Expand to take available space */
+  display: flex;
+  justify-content: flex-end; /* Align buttons to the right */
+  gap: 10px; /* Adjust the gap between buttons and form */
+  margin-left: 0px;
+}
+
+.contact-form {
+  flex: 1; /* Expand to take available space */
+  margin-left: 20px;
+  margin-bottom: 0px;
+  font-family: monospace;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.form-group{
+  margin-bottom: 10px;
+}
+
+.input1{
+  /* Add your desired styles here */
+  width: 500px; /* Set the width to 100% to expand it to the container's width */
+  padding: 8px;
+  margin-left: 30px;
+  border: 1px solid #ccc; /* Add a border */
+  border-radius: 5px; /* Add rounded corners */
+  font-size: 20px; /* Set the font size */
+  color: #333; /* Set the text color */
+}
+.input1:focus{
+  border-color: #007bff; /* Change border color when focused */
+  outline: none; /* Remove the default focus outline */
+}
+
+.input2{
+  /* Add your desired styles here */
+  width: 500px; /* Set the width to 100% to expand it to the container's width */
+  padding: 8px;
+  margin-left: 10px;
+  border: 1px solid #ccc; /* Add a border */
+  border-radius: 5px; /* Add rounded corners */
+  font-size: 20px; /* Set the font size */
+  color: #333; /* Set the text color */
+}
+.input2:focus{
+  border-color: #007bff; /* Change border color when focused */
+  outline: none; /* Remove the default focus outline */
+}
+
+.input3{
+  /* Add your desired styles here */
+  width: 500px; /* Set the width to 100% to expand it to the container's width */
+  padding: 8px;
+  border: 1px solid #ccc; /* Add a border */
+  border-radius: 5px; /* Add rounded corners */
+  font-size: 20px; /* Set the font size */
+  color: #333; /* Set the text color */
+}
+.input3:focus{
+  border-color: #007bff; /* Change border color when focused */
+  outline: none; /* Remove the default focus outline */ 
+}
+
+.submitbutton{
+  margin-left: 480px;
+  margin-top: 30px;
+  border-radius: 25px;
+  border: none;
+  color: black;
+  text-align: center;
+  font-family: monospace;
+  display: inline-block;
+  font-size: 30px;
+  cursor: pointer;
+  background-color: var(--h-sauce-color);
+  font-weight: bold;
+  font-family: monospace;
+  padding:10px
+}
