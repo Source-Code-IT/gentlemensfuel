@@ -10,7 +10,7 @@ import CustomButton from './CustomButton/CustomButton';
 
 
 const App = () => {
-  const [activeSection, setActiveSection] = useState('contact');
+  const [activeSection, setActiveSection] = useState('home');
 
   const showHome = () => {
     setActiveSection('home');
